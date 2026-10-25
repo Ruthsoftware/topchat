@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "topchat",
+  "version": "${version}",
+  "name": "Top Chat",
+  "description": "Chat sol ustte, klavye acilinca yazi kutusu yukari kayar.",
+  "environment": "client",
+  "mixins": ["topchat.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
